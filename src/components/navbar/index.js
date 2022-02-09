@@ -6,7 +6,7 @@ import styled from "styled-components";
 function Navbar() {
     return (
         <>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container">
                     <LogoNavbar class="navbar-brand" src={Logo} href="#" />
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,10 +33,6 @@ function Navbar() {
                                 <a class="nav-link" href="#">Banners</a>
                             </li>
                         </ul>
-                        <form class="d-flex">
-                            <input class="form-control me-2" type="search" placeholder="Pesquise..." aria-label="Search" />
-                            <button class="btn btn-outline-info" type="submit">Pesquisar</button>
-                        </form>
                     </div>
                 </div>
             </nav>
@@ -47,7 +43,9 @@ function Navbar() {
 export default Navbar;
 
 const LogoNavbar = styled.img`
-    width: 115px;
-    height: 42px;
-    padding-right: 10px;
+    width: 230px;
+    height: 115px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 25px;
 `;

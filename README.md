@@ -4,7 +4,7 @@
 
 https://nodejs.org/pt-br/download/
 
-
+<br>
 
 ### Gerar e adicionar uma chave SSH
 
@@ -21,14 +21,20 @@ Depois de colado, é só dar enter até encerrar.
 
 Se necessário: ``` https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account ```
 
-
+<br>
 
 ### Git bash na pasta dos documentos
 
-``` git clone git@github.com:leticia-f/genshin-react.git ```
+#### 1 (git bash): ``` git clone git@github.com:leticia-f/genshin-react.git ```
 
-``` cd genshin-react ```
+#### 2 (cmd): ``` cd (pasta a pasta até chegar na do projeto) ```
 
-``` npm install ```
+#### 3 (cmd): ``` cd genshin-react ```
 
-``` npm install --save styled-components ```
+#### 4 (cmd): ``` npm install ```
+
+#### 5 (cmd): ``` npm install --save styled-components ```
+
+#### 6 (cmd): ``` npm install react-router-dom@6 ```
+
+#### 7 (cmd): ``` npm start ```
