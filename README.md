@@ -1,12 +1,12 @@
 # Instalação do projeto
 
-## Necessário node.js instalado no PC:
+### Necessário node.js instalado no PC:
 
 https://nodejs.org/pt-br/download/
 
 
 
-## Gerar e adicionar uma chave SSH
+### Gerar e adicionar uma chave SSH
 
 #### 1. Abrir git bash
 ``` ssh-keygen -t ed25519 -C "leticia.fonseca.1106@gmail.com" ```
@@ -23,7 +23,7 @@ Se necessário: ``` https://docs.github.com/pt/authentication/connecting-to-gith
 
 
 
-## Git bash na pasta dos documentos
+### Git bash na pasta dos documentos
 
 ``` git clone git@github.com:leticia-f/genshin-react.git ```
 
