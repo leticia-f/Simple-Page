@@ -13,4 +13,5 @@ export default Favoritos;
 
 const HomeImg2 = styled.img`
     height: 100%;
+    width: 100%;
 `;
