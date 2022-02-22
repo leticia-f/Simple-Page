@@ -5,6 +5,7 @@ const Home = () => {
     return (
         <>
             <HomeImg src={homeBackground}/>
+            <h1 class="carousel-caption">Genshin</h1>
         </>
     );
 }
