@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(97, 41, 88);
+    background-color: rgb(90, 41, 97);
 }
 
 h1 {
@@ -13,4 +13,19 @@ h2 {
     font-size: 20px;
     color:rgba(255, 255, 255, 0.432);
     font-family: 'Convergence', sans-serif;
+}
+
+h3 {
+    font-size: 80px;
+    font-family: 'Convergence', sans-serif;
+}
+
+.col-6 {
+    display: inline-block;
+    padding: 20px;
+}
+
+#imagem {
+    padding-left: 50px;
+    padding-right: 70px;
 }
