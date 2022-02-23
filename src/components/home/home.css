@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(97, 41, 88);
+}
+
+h1 {
+    text-align: center;
+    color:white;
+    font-family: 'Convergence', sans-serif;
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 20px;
+    color:rgba(255, 255, 255, 0.432);
+    font-family: 'Convergence', sans-serif;
+}
