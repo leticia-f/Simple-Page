@@ -60,3 +60,11 @@ div.op2 {
     text-align: center;
     padding: 5vw 0vw 5vw 0vw;
 }
+
+#carouselcenter {
+    align-items: justify;
+}
+
+#carouselExampleIndicators {
+    padding-bottom: 60px;
+}
