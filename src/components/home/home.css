@@ -62,9 +62,13 @@ div.op2 {
 }
 
 #carouselcenter {
-    align-items: justify;
+    padding:80px;
 }
 
 #carouselExampleIndicators {
-    padding-bottom: 60px;
+    align-content: center;
+}
+
+.carousel-item {
+    align-content: center;
 }

@@ -56,8 +56,6 @@ const Home = () => {
                         </div>
                     </div>
 
-
-
                     <div id="carouselcenter">
                         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-indicators">
@@ -68,19 +66,19 @@ const Home = () => {
                                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
                             </div>
                             <div class="carousel-inner">
-                                <div class="carousel-item active d-flex justify-content-center" data-bs-interval="10000">
+                                <div class="carousel-item active justify-content-center" data-bs-interval="10000">
                                     <Yae1 src={yaecarousel} />
                                 </div>
-                                <div class="carousel-item d-flex justify-content-center" data-bs-interval="5000">
+                                <div class="carousel-item justify-content-center" data-bs-interval="5000">
                                     <Zhong2 src={zhongcarousel} />
                                 </div>
-                                <div class="carousel-item d-flex justify-content-center" data-bs-interval="5000">
+                                <div class="carousel-item justify-content-center" data-bs-interval="5000">
                                     <Yanfei3 src={yanfeicarousel} />
                                 </div>
-                                <div class="carousel-item d-flex justify-content-center" data-bs-interval="5000">
+                                <div class="carousel-item justify-content-center" data-bs-interval="5000">
                                     <Diona4 src={dionacarousel} />
                                 </div>
-                                <div class="carousel-item d-flex justify-content-center" data-bs-interval="5000">
+                                <div class="carousel-item justify-content-center" data-bs-interval="5000">
                                     <Diluc5 src={diluccarousel} />
                                 </div>
 
@@ -95,7 +93,6 @@ const Home = () => {
                             </button>
                         </div>
                     </div>
-
 
 
                 </div>
