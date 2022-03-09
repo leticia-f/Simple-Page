@@ -22,13 +22,37 @@ h3 {
 }
 
 #topo {
-    padding-top: 170px;
-    padding-left: 50px;
+    align-content: center;
+    justify-content: center;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
+.container#menu {
+    display: grid;
+    grid-template-rows: 400px 400px;
+    grid-template-columns: 45% 45%;
+    align-items: center;
+}
+
+.container#carrossel {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+
+}
+
+div.op1 {
+    width: 50%;
+    display: inline-block;
+    align-content: center;
+    font-size: 3vw;
+    padding: 5vw 0vw 5vw 0vw;
+    min-width: 40vw;
+}
+
+div.op2 {
+    grid-row-gap: 200px;
+    width: 50%;
+    display: inline-block;
+    font-size: 3vw;
 }
 
 .titulo {
@@ -39,30 +63,8 @@ h3 {
     position: relative;
 }
 
-.ctnFlex {
-    display: flex;
-    justify-content: space-between;
-}
-
-div.op1 {
-    width: 38%;
-    display: inline-block;
-    font-size: 3vw;
-    padding: 5vw 0vw 5vw 0vw;
-    min-width: 40vw;
-}
-
-div.op2 {
-    width: 38%;
-    display: inline-block;
-    margin-right: 0vw;
-    font-size: 3vw;
-    text-align: center;
-    padding: 5vw 0vw 5vw 0vw;
-}
-
 #carouselcenter {
-    padding:80px;
+    padding: 80px;
 }
 
 #carouselExampleIndicators {
